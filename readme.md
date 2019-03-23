@@ -14,14 +14,14 @@ This resource is a standalone utility, meaning:
  * You as a developer need to utilize its exports
  * **If you are not a resource developer, this is not for you**
 
-##Screenshots
+## Screenshots
 
 ![](https://i.imgur.com/f8RKdqJ.png)
 
-##Setup
+## Setup
 Set `blip_info` as a depencendy in your resource
 
-##Usage
+## Usage
 *All functions are available via exports*
 
 Info is set per blip (handle) and only need to be set once.
@@ -64,7 +64,7 @@ Adds a line to the info popup, including a blip icon.
 
 Sets the raw info data, for advanced use
 
-##Example
+## Example
 *This example code is what produced the result in the screenshot earlier*
 
 ```lua
@@ -76,7 +76,7 @@ exports['blip_info']:AddBlipInfoHeader(blip, "Info Header", "Look a line")
 exports['blip_info']:AddBlipInfoIcon(blip, "Info Blip", "wew", 16, 0, true)
 ```
 
-##License
+## License
 Do what you want, except:
 
  - Re-distribute a non-remixed version of this resource outside of the target platform
